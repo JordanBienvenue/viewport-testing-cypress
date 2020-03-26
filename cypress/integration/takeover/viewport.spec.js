@@ -12,9 +12,8 @@ describe('Logo', () => {
       } else {
         cy.viewport(size)
       }
-
-      // cy.visit('http://atomic.lexpress.mu/takeover/demo-area/?id=kiosk')
-      cy.visit('http://atomic.lexpress.mu/takeover/kiosk/')
+      // cy.visit('https://www.lsl.digital/')
+      cy.visit(Cypress.env('baseUrl'))
       cy.wait(3000)
     })
   })
