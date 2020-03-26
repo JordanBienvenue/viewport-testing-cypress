@@ -2,11 +2,9 @@
 
 const sizes = ['macbook-15','macbook-13','macbook-11','iphone-6', 'ipad-2','iphone-xr','iphone-x', 'iphone-6+','iphone-4',[812,375] ,[1024, 768]]
 
-describe('Logo', () => {
+describe('Viewport', () => {
   sizes.forEach((size) => {
-    // make assertions on the logo using
-    // an array of different viewports
-    it(`Should display logo on ${size} screen`, () => {
+    it(`size: ${size} screen`, () => {
       if (Cypress._.isArray(size)) {
         cy.viewport(size[0], size[1])
       } else {
