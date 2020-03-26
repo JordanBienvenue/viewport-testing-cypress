@@ -1,15 +1,18 @@
-# viewport-testing-cypress
+# viewport/ responsive display testing cypress
+A simple cypress application to test your website or webpage on different aspect ratio / viewport display
 
-# Steps
-- Clone the Repo
+### Usage
 
-# Commands
+`$ npm install`
 
-1. `npm install`
-2. `npm run cy:open` or `npx cypress open`
+`$ npm run cy:open` or `$ npx cypress open`
 
-## opening webpage from terminal command line
+For running custom webpage from you terminal
 
-`npm run cy:open --env baseUrl=https://lsl.digital/`
+`$ npm run cy:open --env baseUrl=[your url here]`
 
-Testing your website or webpage on different aspect ratio (responsive) on a headless web browser
+Example
+`$ npm run cy:open --env baseUrl=https://lsl.digital/`
+
+### References
+https://www.cypress.io/
