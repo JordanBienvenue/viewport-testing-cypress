@@ -18,7 +18,7 @@ For running custom webpage from you terminal
 Example
 `$ npm run cy:open --env baseUrl=https://lsl.digital/`
 
-
-
+### customise
+Edit script in folder `cypress/integration/takeover/viewport.spec.js`
 ### References
 https://www.cypress.io/
