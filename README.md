@@ -5,12 +5,11 @@
 
 # Commands
 
-`npx cypress open`
-or
-`./node_modules/.bin/cypress open`
+1. `npm install`
+2. `npm run cy:open` or `npx cypress open`
 
 ## opening webpage from terminal command line
 
-`./node_modules/.bin/cypress open --env baseUrl=https://lsl.digital/`
+`npm run cy:open --env baseUrl=https://lsl.digital/`
 
 Testing your website or webpage on different aspect ratio (responsive) on a headless web browser
